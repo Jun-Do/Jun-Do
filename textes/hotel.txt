@@ -1,0 +1,67 @@
+EXEMPLE :
+Tripadvisor : 
+Booking : 
+Nom : 
+Catégorie : 
+Note : 
+Prix minimum : 
+Langues parlées : 
+Adresse : 
+
+____________________________________________________________
+
+Booking : https://www.booking.com/hotel/jp/hiraizumi.fr.html?aid=7344163;label=metatripad-link-dmetafr-hotel-1498298_xqdz-4205f5ac0d93a7086ae358cbca5c135d_los-01_bw-177_dom-fr_curr-EUR_gst-02_nrm-01_clkid-X%40dJRgokKIEAAyC2oOcAAAFW_aud-0000_mbl-M_pd-T_sc-2_defdate-1_spo-0_clksrc-0_mcid-10;sid=d66706626513a12e397709a2914eee87;all_sr_blocks=149829802_127250695_2_1_0;checkin=2021-06-21;checkout=2021-06-22;dest_id=900050881;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=149829802_127250695_2_1_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=149829802_127250695_2_1_0__1199999;srepoch=1608993096;srpvid=a795662429050109;type=total;ucfs=1&#hotelTmpl
+Agoda : https://www.agoda.com/fr-fr/minpaku-hiraizumi/hotel/hiraizumi-jp.html?cid=1844104
+Nom : Minpaku Hiraizumi
+Catégorie : non catégorisé
+Note : 9.8/10 (Booking) (très apprécié des couple)
+Prix minimum : 95€ pour 2 personnes
+Langues parlées : anglais, japonais
+Adresse : 117-17 Shirayama Aza Hiraizumi,, Hiraizumi-cho, Nishiiwai-gun 029-4012 Préfecture d'Iwate
+
+____________________________________________________________
+
+Tripadvisor : https://www.tripadvisor.fr/Hotel_Review-g1120431-d1125533-Reviews-HIRAIZUMI_Hotel_Musashibo-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html
+Booking : https://www.booking.com/hotel/jp/musashibou.fr.html
+Nom : Hotel Musashibo
+Catégorie : 3 étoiles
+Note : 7.2/10 (Booking)
+Prix minimum : 78€
+Langues parlées: anglais, japonais
+Adresse : 15 Hiraizumi Osawa, Hiraizumi-cho, Nishiiwai-gun 029-4102 Préfecture d'Iwate
+
+____________________________________________________________
+
+Tripadvisor : https://www.tripadvisor.fr/Hotel_Review-g1120431-d1153046-Reviews-Soba_an_Shizukatei-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html
+Booking : https://www.booking.com/hotel/jp/shizukatei.fr.html?aid=7344163;label=metatripad-link-dmetafr-hotel-428709_xqdz-403b3920503b9bea58db608ce998cd68_los-01_bw-034_dom-fr_curr-EUR_gst-02_nrm-01_clkid-X%40dOngokHDQAAYlyPHYAAAAc_aud-0000_mbl-M_pd-T_sc-2_defdate-1_spo-0_clksrc-0_mcid-10;sid=d66706626513a12e397709a2914eee87;all_sr_blocks=42870901_190280516_0_42_0;checkin=2021-01-29;checkout=2021-01-30;dest_id=900050881;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=42870901_190280516_0_42_0;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=42870901_190280516_0_42_0__1100000;srepoch=1608994465;srpvid=dcb768d0e3620004;type=total;ucfs=1&#hotelTmpl
+Agoda : https://www.agoda.com/fr-fr/chuson-ji-hiraizumi-spa-ryokan-shizukatei/hotel/hiraizumi-jp.html?finalPriceView=2&isShowMobileAppPrice=false&cid=1587478&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-01-29&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=EUR&isFreeOccSearch=false&tag=hid1031455,pidX@dOkwokGBYABH5ZK-kAAACa&los=1&searchrequestid=ce51d798-3448-47c2-8cc7-4ee7ec93bebf
+Nom : Soba-an Shizukatei
+Catégorie : 3 étoiles
+Note : 7.2/10 (Booking)
+Prix minimum : 87€
+Langues parlées : anglais, japonais
+Adresse : 10-5 Hiraizumi Nagakura, Hiraizumi-cho, Nishiiwai-gun 029-4102 Préfecture d'Iwate
+
+____________________________________________________________
+
+Tripadvisor : https://www.tripadvisor.fr/Hotel_Review-g1120431-d7093567-Reviews-Iris_Yu-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html
+Booking : https://www.booking.com/hotel/jp/iris-yu.fr.html?aid=7344163;label=metatripad-link-dmetafr-hotel-428709_xqdz-403b3920503b9bea58db608ce998cd68_los-01_bw-034_dom-fr_curr-EUR_gst-02_nrm-01_clkid-X%40dOngokHDQAAYlyPHYAAAAc_aud-0000_mbl-M_pd-T_sc-2_defdate-1_spo-0_clksrc-0_mcid-10;sid=d66706626513a12e397709a2914eee87;all_sr_blocks=175458701_195279772_0_0_0;checkin=2021-01-29;checkout=2021-01-30;dest_id=900050881;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=175458701_195279772_0_0_0;hpos=3;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=175458701_195279772_0_0_0__1091999;srepoch=1608994465;srpvid=dcb768d0e3620004;type=total;ucfs=1&#hotelTmpl
+Agoda : https://www.agoda.com/fr-fr/iris-yu/hotel/all/hiraizumi-jp.html?finalPriceView=2&isShowMobileAppPrice=false&cid=1587478&numberOfBedrooms=&familyMode=false&adults=2&children=0&rooms=1&maxRooms=0&checkIn=2021-01-30&isCalendarCallout=false&childAges=&numberOfGuest=0&missingChildAges=false&travellerType=-1&showReviewSubmissionEntry=false&currencyCode=EUR&isFreeOccSearch=false&tag=hid1336887,pidX@dVXAokJIgAAYHXfPgAAABI&los=1&searchrequestid=61fc7f6c-3a19-49f7-8565-e702d13c90a1
+Nom : Iris Yu
+Catégorie : non catégorisé
+Note : 8.4/10 (Booking)
+Prix minimum : 86€
+Langues parlées : anglais, japonais
+Adresse : 116-1 Shirayama Hiraizumi, Hiraizumi-cho, Nishiiwai-gun 029-4102 Préfecture d'Iwate
+
+____________________________________________________________
+
+Booking : https://www.booking.com/hotel/jp/hiraizumi-club.fr.html?aid=7344163;label=metatripad-link-dmetafr-hotel-428709_xqdz-403b3920503b9bea58db608ce998cd68_los-01_bw-034_dom-fr_curr-EUR_gst-02_nrm-01_clkid-X%40dOngokHDQAAYlyPHYAAAAc_aud-0000_mbl-M_pd-T_sc-2_defdate-1_spo-0_clksrc-0_mcid-10;sid=d66706626513a12e397709a2914eee87;all_sr_blocks=353503101_120069773_0_34_0;checkin=2021-01-29;checkout=2021-01-30;dest_id=900050881;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=5;highlighted_blocks=353503101_120069773_0_34_0;hpos=5;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=353503101_120069773_0_34_0__11004000;srepoch=1608994465;srpvid=dcb768d0e3620004;type=total;ucfs=1&#tab-main
+Hotelmix : https://hiraizumi-club-farm-resort.hotelmix.fr/
+Nom : Hiraizumi Club ~farm&resort~
+Catégorie : 5 étoiles
+Note : 9.8
+Prix minimum : 872€ (pour 9 personnes)
+Langues parlées : japonais
+Adresse :  78-1 Nagashima Azamaebayashi, Hiraizumi-cho, Nishiiwai-gun 029-4101 Préfecture d'Iwate
+

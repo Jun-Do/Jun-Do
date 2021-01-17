@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "dyno_sans";
+	src: url('./font/dyno_sans/Dyno Regular.ttf');
+}
+@font-face {
+	font-family: "dyno_sans";
+	font-weight:bold;
+	src: url('./font/dyno_sans/Dyno Bold.ttf');
+}
+@font-face {
+	font-family: "dyno_sans";
+	font-style: italic;
+	src: url('./font/dyno_sans/Dyno Italic.ttf');
+}
+@font-face {
+	font-family: "dyno_sans";
+	font-style: italic;
+	font-weight: bold;
+	src: url('./font/dyno_sans/Dyno Bold Italic.ttf');
+}
+html{
+	font-family: "dyno_sans";
+	background-color:#333333;
+}
+header{
+	background-color: #505050;
+}
+.nav_list {
+    list-style: none;
+    flex: 1 1 auto;
+}
+.nav_link{
+	background-color: #333333;
+	font-size: 25px;
+	box-shadow: 0 0 0 5px #333333;
+	text-decoration: none;
+	color: white
+}
+.nav_top{
+	display: flex;
+}
+.image{
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+img{
+	width: 90%;
+   	min-height: 0;
+   	min-width: 0;
+}

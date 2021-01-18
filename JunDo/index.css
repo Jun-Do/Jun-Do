@@ -19,6 +19,7 @@
 	src: url('./font/dyno_sans/Dyno Bold Italic.ttf');
 }
 html{
+	--gutter: 20px;
 	font-family: "dyno_sans";
 	background-color:#333333;
 }
@@ -97,4 +98,47 @@ hr{
 	border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(248, 176, 2, 0), rgba(248, 176, 2, 0.75), rgba(248, 176, 2, 0));
+}
+
+.parcours{
+	display: grid;
+	padding: var(--gutter) 0;
+	grid-gap: var(--gutter) 0;
+	grid-template-columns: var(--gutter) 1fr var(--gutter);
+	align-content: start;
+}
+
+.parcours > *{
+	grid-column: 2 / -2;
+}
+.parcours > .full {
+	grid-column: 1 / -1;
+}
+.grid{
+	display: grid;
+	grid-gap: calc(var(--gutter) / 2);
+	grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+	grid-template-rows: minmax(150px, 1fr);
+  	overflow-x: scroll;
+  	scroll-snap-type: x proximity;
+  	padding-bottom: calc(.75 * var(--gutter));
+  	margin-bottom: calc(-.5 * var(--gutter));
+}
+.grid:before,.grid:after{
+	content: '';
+}
+.hide-scroll{
+	overflow-y: hidden;
+	margin-bottom: calc(-.1 * var(--gutter));
+}
+.grid li{
+	list-style: none;
+	background-color:#f7af3e; 
+	text-align: center;
+	line-height: 150px;
+}
+
+.grid a{
+	text-decoration: none;
+	color: white;
 }

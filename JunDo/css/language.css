@@ -1,0 +1,46 @@
+.language_switch {
+  position: absolute;
+  top:20px;
+  right:20px;
+
+  width: 30px;
+  height: 60px;
+
+  background-color: #b94503;
+  border-radius: 30px;
+  border-style: none;
+}
+
+.language_select {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 30px;
+  height: 30px;
+
+  background-color: #ea5c0d;
+  border-radius: 50%;
+}
+
+.language_icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+}
+
+.language_icon + .language_icon {
+  position: absolute;
+  top: 35px;
+  left: 5px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+}

@@ -45,8 +45,56 @@ header{
 	width: 100%;
 	justify-content: center;
 }
-img{
+.slogan{
+	display: flex;
+	color: white;
+	justify-content: center;
+	background-color: #505050;
+}
+.img_hira{
 	width: 90%;
    	min-height: 0;
    	min-width: 0;
+}
+
+.cube{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap:10px;
+	grid-auto-rows: minmax(300px,auto);
+}
+.cube div a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px
+}
+.cube div{
+	text-align: center;
+	line-height: 300px;
+}
+.actualite{
+	grid-column: 1/3;
+	grid-row: 1;
+	background-color: #ea5c0d;
+}
+.converteur{
+	background-color: #b94503;
+}
+.numeros{
+	background-color: #ea5c0d;
+}
+.meteo{
+	background-color: #b94503;
+}
+.carte{
+	background-color: #f7af3e;
+	grid-column: 2/5
+}
+h3{
+	color: white
+}
+hr{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(248, 176, 2, 0), rgba(248, 176, 2, 0.75), rgba(248, 176, 2, 0));
 }

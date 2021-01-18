@@ -22,6 +22,8 @@ html{
 	--gutter: 20px;
 	font-family: "dyno_sans";
 	background-color:#333333;
+	overflow-y: scroll;
+    overflow-x: hidden;
 }
 header{
 	background-color: #505050;
@@ -100,14 +102,15 @@ hr{
     background-image: linear-gradient(to right, rgba(248, 176, 2, 0), rgba(248, 176, 2, 0.75), rgba(248, 176, 2, 0));
 }
 
+/*horizontal scrolling */
 .parcours{
 	display: grid;
 	padding: var(--gutter) 0;
 	grid-gap: var(--gutter) 0;
 	grid-template-columns: var(--gutter) 1fr var(--gutter);
 	align-content: start;
+	background-color: #505050;
 }
-
 .parcours > *{
 	grid-column: 2 / -2;
 }
@@ -117,7 +120,7 @@ hr{
 .grid{
 	display: grid;
 	grid-gap: calc(var(--gutter) / 2);
-	grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+	grid-template-columns: 10px repeat(4, calc(50% - var(--gutter) * 2)) 10px;
 	grid-template-rows: minmax(150px, 1fr);
   	overflow-x: scroll;
   	scroll-snap-type: x proximity;
@@ -141,4 +144,22 @@ hr{
 .grid a{
 	text-decoration: none;
 	color: white;
+}
+
+/*Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #b94503; 
 }

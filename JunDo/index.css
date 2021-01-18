@@ -19,7 +19,6 @@
 	src: url('./font/dyno_sans/Dyno Bold Italic.ttf');
 }
 html{
-	--gutter: 20px;
 	font-family: "dyno_sans";
 	background-color:#333333;
 	overflow-y: scroll;
@@ -49,6 +48,8 @@ header{
 	justify-content: center;
 }
 .slogan{
+	margin-top:10px;
+	margin-bottom:10px;
 	display: flex;
 	color: white;
 	justify-content: center;
@@ -104,10 +105,11 @@ hr{
 
 /*horizontal scrolling */
 .parcours{
+	margin-top: 10px;
 	display: grid;
-	padding: var(--gutter) 0;
-	grid-gap: var(--gutter) 0;
-	grid-template-columns: var(--gutter) 1fr var(--gutter);
+	padding: 0 0;
+	grid-gap: 0 0;
+	grid-template-columns: 15px 1fr 0;
 	align-content: start;
 	background-color: #505050;
 }
@@ -119,20 +121,20 @@ hr{
 }
 .grid{
 	display: grid;
-	grid-gap: calc(var(--gutter) / 2);
-	grid-template-columns: 10px repeat(4, calc(50% - var(--gutter) * 2)) 10px;
+	grid-gap: 15px;
+	grid-template-columns: 10px repeat(4, calc(50% - 15px * 2)) 10px;
 	grid-template-rows: minmax(150px, 1fr);
   	overflow-x: scroll;
   	scroll-snap-type: x proximity;
-  	padding-bottom: calc(.75 * var(--gutter));
-  	margin-bottom: calc(-.5 * var(--gutter));
+  	padding-bottom: 15px;
+  	margin-bottom: 15px;
 }
 .grid:before,.grid:after{
 	content: '';
 }
 .hide-scroll{
 	overflow-y: hidden;
-	margin-bottom: calc(-.1 * var(--gutter));
+	margin-bottom: 0px;
 }
 .grid li{
 	list-style: none;
@@ -162,4 +164,43 @@ hr{
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: #b94503; 
+}
+
+/*Footer*/
+footer{
+	margin-top: 80px;
+	padding-top: 1px;
+	background-color:#505050;
+	padding-bottom:20px; 
+}
+footer .container{
+	display: grid;
+	grid-template-columns:repeat(4,1fr);
+	grid-template-rows: minmax(150px, 1fr);
+}
+
+[src="images/logo_unesco.png"]{
+	width: 200px;
+	grid-column:1/2;
+	grid-row:1/1;
+}
+[src="images/logo_upem.png"]{
+	width: 300px;
+	grid-column:1/2;
+	grid-row:2/2;
+}
+
+footer .text{
+	grid-row: 1/2;
+	align-self: center;
+	text-decoration: none;
+	color: white;
+	font-size: 25px
+}
+
+.up{
+	align-self: center;
+	text-decoration: none;
+	color:#b94503;
+	font-size: 50px;
 }

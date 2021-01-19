@@ -89,6 +89,13 @@ header{
 	margin: auto;
 	margin-top: 25%;
 }
+input{
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: "dyno_sans";
+	background-color: #505050;
+	border: 1px solid transparent;
+}
 .numeros{
 	background-color: #ea5c0d;
 	line-height: 300px;

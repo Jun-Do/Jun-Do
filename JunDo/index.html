@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" type="text/css" href="css/language.css">
+	
 </head>
 <body>
 
@@ -65,7 +66,17 @@
 			</div>
 
 			<div class="converteur">
-				<a href="#"> Converteur monnaie </a>
+				<table class="converter">
+			      <tr>
+			        <th><label class="label_euro" for="input_euro">Euro</label></th>
+			        <th><label class="label_yen" for="input_yen">Yen</label></th>
+			      </tr>
+			      <tr>
+			        <td><input type="text" value="1 €" id="input_euro" class="input_euro" onchange="updateResult('input_yen')"></input></td>
+			        <td><input type="text" value="" id="input_yen" class="input_yen" onchange="updateResult('input_euro')"></input></td>
+			      </tr>
+			      <script src="js/convert.js"></script>
+			    </table>
 			</div>
 
 			<div class="numeros">

@@ -226,3 +226,27 @@ footer .text{
 	color:#b94503;
 	font-size: 50px;
 }
+
+/*Histoire*/
+.article{
+	height: 80%;
+	margin-bottom: 20%;
+	list-style-position: inside;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color: white;
+	line-height: 30px;
+}
+.article img{
+	object-fit: cover;
+}
+
+.text{
+	background-color: #505050;
+}
+
+h1{
+	background-color: #b94503;
+	margin-right: 75%;
+}

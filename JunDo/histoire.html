@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>histoire</title>
+	<title>Histoire</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/language.css">
 </head>
+
 <body>
+	<header>
+		
+		<!-- Bouton pour changer de langues ALEX -->
+		<button type="button" class="language_switch" id="language_switch" 
+		onClick="changeLanguage()">
+			<div class="language_select" id="language_select"></div>
+			<img class="language_icon" src="images/fr.png" alt="fr">
+			<img class="language_icon" src="images/en.png" alt="en">
+		</button>
+		<script src="js/language.js"></script>
+		<!-- Fin bouton -->
+
+	</header>
+
 	<section>
 		<div class="article">
 		<h1> Chūson-ji </h1>

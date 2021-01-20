@@ -98,8 +98,14 @@ input{
 	color: white;
 	border: 1px solid #333333;
 }
+.num{
+	color: white;
+	white-space: nowrap;
+}
 .numeros{
 	background-color: #ea5c0d;
+	padding-top:20%; 
+	overflow-x: auto;
 }
 .meteo{
 	background-color: #b94503;

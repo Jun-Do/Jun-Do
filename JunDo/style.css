@@ -88,17 +88,18 @@ header{
 .converter{
 	margin: auto;
 	margin-top: 25%;
+	color: white;
 }
 input{
 	box-sizing: border-box;
 	font-size: 20px;
 	font-family: "dyno_sans";
 	background-color: #505050;
-	border: 1px solid transparent;
+	color: white;
+	border: 1px solid #333333;
 }
 .numeros{
 	background-color: #ea5c0d;
-	line-height: 300px;
 }
 .meteo{
 	background-color: #b94503;
@@ -170,7 +171,7 @@ hr{
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #ebebeb;
+    background-color: #333333;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }

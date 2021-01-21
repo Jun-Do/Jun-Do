@@ -25,4 +25,3 @@ function updateResult(target) {
 }
 
 updateResult("input_yen");
-console.log("Cahrgement terminé.");

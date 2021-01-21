@@ -18,6 +18,9 @@
 	font-weight: bold;
 	src: url('./font/dyno_sans/Dyno Bold Italic.ttf');
 }
+* { 
+	color: white; 
+}
 html{
 	font-family: "dyno_sans";
 	background-color:#333333;

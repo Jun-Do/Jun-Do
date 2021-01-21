@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>sources</title>
+	<title>Sources</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/language.css">
 </head>
 <body>
 	<header>
-		<h1>Sources</h1>
+
+		<!-- Bouton pour changer de langues -->
+		<button type="button" class="language_switch" id="language_switch" 
+		onClick="changeLanguage()">
+			<div class="language_select" id="language_select"></div>
+			<img class="language_icon" src="images/fr.png" alt="fr">
+			<img class="language_icon" src="images/en.png" alt="en">
+		</button>
+		<script src="js/language.js"></script>
+		<!-- Fin bouton -->
+
+		<nav class="nav_top">
+			<ul class="nav_list">
+				<li><a href="index.html" class="nav_link">Retour au menu</a></li>				
+			</ul>
+		</nav>
+		<hr>
+		<br>
+		
 	</header>
 
 	<section>
+		<h1>Sources</h1>
+		
 		<div class="sources">
 			<h2>
 				sources images:

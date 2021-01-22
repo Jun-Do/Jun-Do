@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/language.css">
+	
 </head>
 <body>
 
@@ -13,7 +14,7 @@
 		<!-- Bouton pour changer de langues ALEX -->
 		<button type="button" class="language_switch" id="language_switch" 
 		onClick="changeLanguage()">
-			<span class="language_select" id="language_select"></span>
+			<div class="language_select" id="language_select"></div>
 			<img class="language_icon" src="images/fr.png" alt="fr">
 			<img class="language_icon" src="images/en.png" alt="en">
 		</button>
@@ -43,7 +44,7 @@
 			</ul>
 			<ul class="nav_list">
 				<li>
-					<a href="qui_sommes_nous.html" class="nav_link">Qui somme nous ?</a>
+					<a href="qui_sommes_nous.html" class="nav_link">Qui sommes nous ?</a>
 				</li>				
 			</ul>	
 		</nav>
@@ -51,87 +52,91 @@
 		<br>
 	</header>
 
-	<div class="image">
-		<img src="images/Hiraizumi.jpg" class="img_hira" alt="Hiraizumi.jpg">
-	</div>
-
-	<div class="slogan">
-		<p>"Trois générations de gloire disparu en l'espace d'un rêve"   Matsuo Basho,  1689,  Okunohosomichi</p>
-	</div>
-
-	<section class="cube">
-		<div class="actualite">
-			<a href="#"> Actualité </a>
+		<div class="image">
+			<img src="images/Hiraizumi.jpg" class="img_hira">
 		</div>
 
-		<div class="converteur">
-			<table class="converter">
-			  <caption>Convertisseur Monnaie</caption>
-		      <tr>
-				<th><label class="label_euro" for="input_euro">Euro</label></th>
-				<th></th>
-		        <th><label class="label_yen" for="input_yen">Yen</label></th>
-		      </tr>
-		      <tr>
-				<td><input type="text" value="1 €" id="input_euro" class="input_euro" onchange="updateResult('input_yen')"></td>
-				<td>=</td>
-		        <td><input type="text" value="" id="input_yen" class="input_yen" onchange="updateResult('input_euro')"></td>
-		      </tr>
-		      <script src="js/convert.js"></script>
-		    </table>
+		<div class="slogan">
+			<p>"Trois générations de gloire disparu en l'espace d'un rêve"   Matsuo Basho,  1689,  Okunohosomichi</p>
 		</div>
 
-		<div class="numeros">
-			<a href="#"> Numéros utiles </a>
-			<p>
-				Secours:<Span class="num">119</Span> <br>
-				Service d'assistance 24/24 en anglais: <span class="num">0120 461997</span><br>
-				Ambassade Française: <span class="num">(03) 5798-6000 </span><br>
-				Police: <span class="num">110</span> <br>
-				Police en anglais: <span class="num">03-3501-0110</span> <br>
-			</p>
-		</div>
+		<section class="cube">
+			<div class="actualite">
+				<a href="#"> Actualité </a>
+			</div>
 
-		<div class="meteo">
-			<a href="#"> Météo </a>
-		</div>
+			<div class="converteur">
+				<table class="converter">
+				  <caption>Convertisseur Monnaie</caption>
+			      <tr>
+					<th><label class="label_euro" for="input_euro">Euro</label></th>
+					<th></th>
+			        <th><label class="label_yen" for="input_yen">Yen</label></th>
+			      </tr>
+			      <tr>
+					<td><input type="text" value="1 €" id="input_euro" class="input_euro" onchange="updateResult('input_yen')"></input></td>
+					<td>=</td>
+			        <td><input type="text" value="" id="input_yen" class="input_yen" onchange="updateResult('input_euro')"></input></td>
+			      </tr>
+			      <script src="js/convert.js"></script>
+			    </table>
+			</div>
 
 		<div class="carte">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99248.5868772685!2d141.0457571112553!3d38.980664913023105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f88ce03f6e9c02d%3A0xea7a370333c91ab!2sHiraizumi%2C%20District%20de%20Nishiiwai%2C%20Pr%C3%A9fecture%20d&#39;Iwate%2C%20Japon!5e0!3m2!1sfr!2sfr!4v1611351013459!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</section>
+			<div class="numeros">
+				<a href="#"> Numéros utiles </a>
+				<p>
+					Secours:<Span class="num">119</Span> <br>
+					Service d'assistance 24/24 en anglais: <span class="num">0120 461997</span><br>
+					Ambassade Française: <span class="num">(03) 5798-6000 </span><br>
+					Police: <span class="num">110</span> <br>
+					Police en anglais: <span class="num">03-3501-0110</span> <br>
+				</p>
+			</div>
 
-	<section class="parcours">
-		<h3>Parcours:</h3>
-		<div class="full hide-scroll">
-		<ul class="grid">
-			<li class="articles">
-				<a href="#"> En printemps </a>
-			</li>
-		
-			<li class="articles">
-				<a href="#"> En été </a>
-			</li>
+			<div class="meteo">
+				<a href="#"> Météo </a>
+			</div>
 
-			<li class="articles">
-				<a href="#"> En automne </a>
-			</li>
-			<li class="articles">
-				<a href="#"> En hiver </a>
-			</li>
-		</ul>
-	</div>
-	</section>
+			<div class="carte">
+				<a href="#"> Carte </a>
+			</div>
+		</section>
 
-	<footer>
-		<div class="container">
-			<img src="images/logo_unesco.png" alt="logo_unesco.png">
-			<img src="images/logo_upem.png" alt="logo_upem.png">
-			<a href="#" class="text"> Plan du site</a>
-			<a href="source.html" class="text"> Mention légales</a>
-			<a href="" class="up">Retour en haut</a>
+		<section class="parcours">
+			<h3>Parcours:</h3>
+			<div class="full hide-scroll">
+			<ul class="grid">
+				<li class="articles">
+					<a href="#"> En printemps </a>
+				</li>
+			
+				<li class="articles">
+					<a href="#"> En été </a>
+				</li>
+
+				<li class="articles">
+					<a href="#"> En automne </a>
+				</li>
+				<li class="articles">
+					<a href="#"> En hiver </a>
+				</li>
+			</ul>
 		</div>
-	</footer>
+		</section>
+
+		<footer>
+			<div class="container">
+				<img src="images/logo_unesco.png">
+				<img src="images/logo_upem.png">
+				<a href="#" class="text"> Plan du site</a>
+				<a href="source.html" class="text"> Mention légales</a>
+				<a href="" class="up">Retour en haut</a>
+			</div>
+		</footer>
 
 </body>
 </html>

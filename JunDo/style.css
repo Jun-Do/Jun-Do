@@ -127,7 +127,7 @@ hr{
     height: 1px;
     background-image: linear-gradient(to right, rgba(248, 176, 2, 0), rgba(248, 176, 2, 0.75), rgba(248, 176, 2, 0));
 }
-
+.num{color:#333333 }
 /*horizontal scrolling */
 .parcours{
 	margin-top: 10px;

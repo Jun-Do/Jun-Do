@@ -257,3 +257,16 @@ h1{
 .place{
 	background-color: #505050;
 }
+
+.us-grid{
+	display: grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-auto-rows:minmax(150px,1fr);
+	color: white;
+}
+.us h1 {
+	margin-right: 50%;
+}
+.us img{
+	height: 150px;
+}

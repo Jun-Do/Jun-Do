@@ -133,6 +133,7 @@ hr{
     background-image: linear-gradient(to right, rgba(248, 176, 2, 0), rgba(248, 176, 2, 0.75), rgba(248, 176, 2, 0));
 }
 .num{color:#333333 }
+
 /*horizontal scrolling */
 .parcours{
 	margin-top: 10px;
@@ -238,7 +239,7 @@ footer .text{
 /*Histoire*/
 article{
 	height: 80%;
-	margin-bottom: 20%;
+	margin-bottom: 100px;
 	list-style-position: inside;
 	margin-left: auto;
 	margin-right: auto;
@@ -281,14 +282,36 @@ h1{
 	position: relative;
 	left: 0;
 
-	height: 100px;
-	background-color: grey;
-	margin: 20px 0;
+	height: 80px;
+	margin: 40px 0 20px 0;
+	line-height: 30px;
 }
+
 .title1 h2 {
 	position: absolute;
-	background-color: black;
-	margin: 0 200px;
-	top:50%;
-	transform: translateY(-50%);
+	margin: 0 120px;
+	top:10px;
+	font-size: 26pt;
+	font-weight: initial;
+}
+
+.title1 .title1_bg {
+	position: absolute;
+	top: 0px;
+	left: 70px;
+	right: 0px;
+	height: 50px;
+	background-color: #b94503;
+}
+
+.title1 .title1_bg_corner {
+	position: absolute;
+	top: 22px;
+	left: 9.5px;
+	/*bottom: 25px;
+	right: 0px;*/
+	width: 90px;
+	height: 60px;
+
+	transform: rotateZ(140deg);
 }

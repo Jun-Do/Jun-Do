@@ -117,7 +117,7 @@ input{
 }
 .meteo{
 	background-color: #b94503;
-	line-height: 300px;
+	/*line-height: 300px;*/
 }
 .carte{
 	background-color: #f7af3e;

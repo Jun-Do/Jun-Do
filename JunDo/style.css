@@ -377,7 +377,15 @@ h1{
 .learn .title2 { margin: 0; }
 /*Définitions*/
 dl { margin-bottom: 20px; background-color: #505050; }
-dt { font-style: italic; }
+dt { font-style: italic; position: relative; }
 dd:before { content: "➤ "; }
 dd { margin-bottom: 6px; }
 .learn ul { background-color: #505050; }
+dt, dd { padding-left: 270px; }
+dt audio {
+	position: absolute;
+	top: 7px;
+	left: 10px;
+	height: 30px;
+	width: 250px;
+}

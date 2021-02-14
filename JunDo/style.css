@@ -26,6 +26,8 @@ html {
 	background-color:#333333;
 	overflow-y: scroll;
   overflow-x: hidden;
+
+  scroll-behavior: smooth; /*Cool ce truc*/
 }
 
 body {
@@ -110,20 +112,55 @@ input{
 	color: white;
 	white-space: nowrap;
 }
+
 .numeros{
 	background-color: #ea5c0d;
 	padding-top:20%; 
 	overflow-x: auto;
 }
+
 .meteo{
 	background-color: #b94503;
 	/*line-height: 300px;*/
 }
+
+/*Carte*/
 .carte{
+	position: relative;
 	background-color: #f7af3e;
 	grid-column: 2/5;
-	/*line-height: 300px;*/
 }
+.carte iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#map_local {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow-x: auto;
+	display: none;
+}
+#map_local img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+}
+.carte button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 20px;
+	background-image: url("images/arrows_map.png");
+}
+
 h3{
 	color: white
 }
@@ -354,12 +391,6 @@ h1{
 	height: 15px;
 
 	transform: rotateZ(130deg);
-}
-
-/*Carte*/
-.carte iframe {
-	width: 100%;
-	height: 100%;
 }
 
 /*Sources*/

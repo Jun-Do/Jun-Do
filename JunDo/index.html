@@ -97,9 +97,19 @@
 			<div id="weatherapi-weather-widget-5"></div><script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=3137058&wid=5&tu=1&div=weatherapi-weather-widget-5' async></script><noscript><a href="https://www.weatherapi.com/weather/q/tateishi-iwate-japan-3137058" alt="Hour by hour Tateishi, Iwate, Japan weather">10 day hour by hour Tateishi, Iwate, Japan weather</a></noscript>
 		</div>
 
+		<!--Carte-->
 		<div class="carte">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49617.51251755249!2d141.07373791569867!3d38.99033882561467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f88ce03f6e9c02d%3A0xea7a370333c91ab!2sHiraizumi%2C%20District%20de%20Nishiiwai%2C%20Pr%C3%A9fecture%20d&#39;Iwate%2C%20Japon!5e0!3m2!1sfr!2sfr!4v1611947752073!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		</div>
+			<map id="map_links">
+				<area shape="rect" coords="0,0,200,200" href="#">
+			</map>
+
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49617.51251755249!2d141.07373791569867!3d38.99033882561467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f88ce03f6e9c02d%3A0xea7a370333c91ab!2sHiraizumi%2C%20District%20de%20Nishiiwai%2C%20Pr%C3%A9fecture%20d&#39;Iwate%2C%20Japon!5e0!3m2!1sfr!2sfr!4v1611947752073!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="map_google"></iframe>
+			<div id="map_local">
+				<img src="images/map.png" usemap="#map_links"/>
+			</div>
+			<script src="js/map.js"></script>
+			<button onClick="ChangeMap()"></button>
+		</div><!--Carte-->
 	</section>
 
 	<section class="parcours">

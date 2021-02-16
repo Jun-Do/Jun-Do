@@ -152,6 +152,18 @@ input{
 	left: 50%;
 	transform: translateX(-50%);
 }
+#map_local_info {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	background-color: #00000077;
+	padding: 0 10px;
+}
 .carte button {
 	position: absolute;
 	top: 10px;

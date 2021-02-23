@@ -257,24 +257,29 @@ hr{
 
 /*Footer*/
 footer{
-	margin-top: 80px;
-	padding-top: 1px;
+	margin-top: 50px;
 	background-color:#505050;
 	padding-bottom:20px; 
 }
-footer .container{
-	display: grid;
-	grid-template-columns:repeat(4,1fr);
-	grid-template-rows: minmax(150px, 1fr);
+
+.nav_bottom{
+	display: flex;
+	margin-left: 12%;
 }
 
 [src="images/logo_unesco.png"]{
-	width: 200px;
+	width: 215px;
 	grid-column:1/2;
 	grid-row:1/1;
 }
 [src="images/logo_upem.png"]{
-	width: 300px;
+	width: 250px;
+	grid-column:1/2;
+	grid-row:2/2;
+}
+
+[src="images/logo_mcn.png"]{
+	width: 350px;
 	grid-column:1/2;
 	grid-row:2/2;
 }
@@ -287,12 +292,6 @@ footer .text{
 	font-size: 25px
 }
 
-.up{
-	align-self: center;
-	text-decoration: none;
-	color:#b94503;
-	font-size: 50px;
-}
 
 /*Histoire*/
 article{
@@ -307,6 +306,8 @@ article{
 }
 article img{
 	object-fit: cover;
+	width: 50%;
+	height: auto;
 }
 
 .text{
